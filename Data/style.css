@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: red;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+}
+
+nav {
+  display: flex;
+}
+
+nav ul li {
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 2rem;
+}
+
+.red {
+  color: red;
+}
+
+#hero {
+  background-image: url("./Images/Building.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+
+#hero h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+#hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  max-width: 30rem;
+}
+
+#services {
+  display: flex;
+  margin: 2rem -1rem;
+}
+
+.service-item {
+  justify-content: space-between;
+  margin: 1rem;
+  background-color: #f4f4f4;
+  padding: 2rem;
+}
+
+#about {
+  display: flex;
+}
+.about {
+  padding: 120px 20px 30px 20px;
+  width: 800px;
+  font-size: 22px;
+  text-align: center;
+}
